@@ -1,10 +1,10 @@
 ### v0.1.2
 - Trained the model on 300k positions with LR 0.001 and then again 1M positions with LR 0.0001
 - Got great results:
-| Session | Start Loss (Epoch 1) | End Loss (Epoch 10) | Positions |
-| ;--- | ;--- | ;--- | ;--- |
-| v0.1.1 | 0.14990 | 0.04546 | 300k | 
-| v0.1.2 | 0.12538 | 0.05571 | 1.0M |
+| Session | Learning Rate | Start Loss (Epoch 1) | End Loss (Epoch 10) | Positions |
+| ;--- | ;--- | ;--- | ;--- | ;--- |
+| v0.1.1 | 0.001 | 0.14990 | 0.04546 | 300k | 
+| v0.1.2 | 0.0001 | 0.12538 | 0.05571 | 1.0M |
 
 ### v0.1.0
 - Used a 19-channel input tensor ($19 \times 8 \times 8$) encoding piece positions and game-state metadata (castling, turn, EP).
